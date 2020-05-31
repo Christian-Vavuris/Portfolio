@@ -1,12 +1,118 @@
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    /* here is some additional info */
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+    background-color:	#c8c0d1;
+    color: #5c6ca3;
+    text-align:center;
+}
+
+/* Header */
+
+header {
+    display:flex;
+
+
+}
+
+header h1 a{
+    Display:flex;
+    font-weight: bold;
+    flex-wrap: Wrap;
+    font-size: 36px;
+    text-shadow:0 0 10px rbca(0, 0, 0, 0.5);
+    width:100%;
+}
+
+header a{
+    text-decoration:none;
+}
+
+
+ header nav {
+    Display:flex;
+    align-content: flex-start;
+    align-items:flex-start;
+    /* align-self: center;   */
+    justify-self: center;
+} 
+
+header nav a{
+    padding: 10px 15px;
+    font-weight:lighter;
+    font-size: 24px;
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    justify-content: end;
+    /* width:100%; */
+}
+
+header nav a:hover {
+    text-shadow: none;
+}
+
 .hero {
     background-image: url("./Hero_Image.webp");
     background-size:cover;
     background-position:center;
-    Display:flex;
-    justify-content: center;
+    justify-content: Center;
     flex-wrap: wrap;
-    align-items:flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    height: 400px;
+    height: 350px;
+}
+
+/* About Me Section */
+
+
+
+/* Grid */
+
+.Grid-Wrapper {
+    display:flex;
+    width: 100%;
+    Justify-content:center;
+}
+
+.Grid-Container {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width:80%;
+    font-size:18px;
+    grid-gap: 10px;
+
+}
+
+.grid-item {
+    border: 2px solid #3e3a53;
+    padding:10px;
+    background-color:#ffd1cd;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background:#ffd1cd;
+    width: 100%;
+    justify-content:space-between;
+    flex-wrap:wrap;    
+}
+
+/* Media Queries */
+
+@media screen and (max-width:768px) {
+    body {
+        text-align:center;
+    }
+
+    header {
+        height:200px;
+    }
+
+    header nav a:hover {
+        text-shadow: none;
+    }
 }
