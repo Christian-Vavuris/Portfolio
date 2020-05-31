@@ -1,0 +1,12 @@
+.hero {
+    background-image: url("./Hero_Image.webp");
+    background-size:cover;
+    background-position:center;
+    Display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 400px;
+}
