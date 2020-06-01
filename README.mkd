@@ -1,0 +1,25 @@
+# Chris Vavuris' Portfolio Webiste
+
+## Description
+
+This is to be my portfolio website for showing off my projects done at bootcamp!
+
+### Requirements
+
+Working on this site requires a beginner's understanding of HTML and CSS.  No other languages are required.  
+Basic terminal navigation and git knowledge a plus.
+
+### URL
+
+https://christian-vavuris.github.io/Portfolio/
+
+
+### Project Notes
+Website is optimized for Google Chrome.  
+Most recent work on this page was refactoring it to increase accessibility this included adding semantic tags, alt descriptions to images, and other items to make the page more inclusive. 
+
+### Dev Notes
+All files should be found in the Portfolio directory for Chris Vavuris
+
+
+### All refactoring performed by Chris Vavuris via Berkeley Boot Camp!
