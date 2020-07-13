@@ -95,6 +95,11 @@ header nav a:hover {
     color:#fce138;
 }
 
+.project_2 {
+    background-image: url("./Vacation_Planner.png");
+    color:navy;
+}
+
 /* Footer */
 
 footer {
